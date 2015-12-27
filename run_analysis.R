@@ -50,5 +50,3 @@ Data   = melt(AllData, id = Id_Labels, measure.vars = Labeled_Data)
 #Q5 Creates a second, independent tidy data set with the average of each variable for each activity and each #subject.
 tidy_data   = dcast(Data, subject + Activity_Label ~ variable, mean)
 write.table(tidy_data, file = "./tidy_data.txt")
-
-FinalResult  <- read.table("./tidy_data.txt")

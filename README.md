@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The run_analysis.R file does the following.
 Frist, download and unziped the data.
-Second, #Loading Data  into R
+Second, Loading data into R
 Third: 
   3.1-Merges the training and the test sets to create one data set.
   3.2-Extracts only the measurements on the mean and standard deviation for each measurement. 
